@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+      .obrazek {
+        margin-top: -50px;
+        margin-left: -50px;
+        animation: rotate 2s linear infinite;
+        min-width: 300px;
+        max-height:200px;
+      }
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+            .napisy{
+                display:grid;
+                grid-template-rows: 1fr 1fr ;
+                grid-template-columns: 1fr 1fr 1fr;
+
+            }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nawigacja">
+        <img src="steryd.png" alt="Steryd anaboliczny" />
+        <ul class="nawigacja__lista">
+          <li class="nawigacja__item">
+            <a href="main.html">Strona główna</a>
+          </li>
+          <li class="nawigacja__item"><a href="obrazy.html">Obrazy</a></li>
+          <li class="nawigacja__item"><a href="tabela.html">Tabela</a></li>
+        </ul>
+      </nav>
+      <header class="baner">
+        <h1 class="baner__tytul">Witaj na Anabol.pl</h1>
+      </header>
+      <main class="napisy">
+        <img class="obrazek" src="steryd2.jpeg" />
+        <img
+          class="obrazek"
+          src="https://upload.wikimedia.org/wikipedia/commons/6/61/Robert_Burneika.jpg"
+        />
+        <img class="obrazek" src="steryd3.jpeg" alt="liver king">
+        <img class="obrazek" src="steryd4.jpeg" alt="LIGHT WEIGHT BABY">
+        <img class="obrazek" src="steryd5jpeg.jpg" alt="GIGA CHAD">
+        <img class="obrazek" src="steryd6.jpeg">
+        <img class="obrazek" src="steryd7.jpeg">
+        <img class="obrazek" src="steryd8.png">
+        <img class="obrazek" src="steryd9.jpg">
+      </main>
+      <div class="stopka">Copyright @ Maciej Olczak</div>
+    </div>
+  </body>
+</html>
